@@ -70,7 +70,7 @@
   <h1 class="display-4">Block-1</h1>
 </div>
 
-<!---------- block-1 ---------->
+<!-- block-1 -->
 <div class="container">
   <div class="row">
 
@@ -133,7 +133,7 @@
 
   </div><!-- /row -->
 </div><!-- /container -->
-<!---------- End block-1 ---------->
+<!-- /block-1 -->
 
 <div class="delimiter container">
   <h1 class="display-4">Fullscreen background mp4 video</h1>
@@ -165,7 +165,7 @@
 <script type="text/javascript">
 
 (function($) {
-  $.fn.visible = function(partial) {   
+  $.fn.visible = function(partial) {
       var $t            = $(this),
           $w            = $(window),
           viewTop       = $w.scrollTop(),
@@ -174,7 +174,7 @@
           _bottom       = _top + $t.height(),
           compareTop    = partial === true ? _bottom : _top,
           compareBottom = partial === true ? _top : _bottom;
-    
+
     return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
   };
 })(jQuery);
@@ -183,8 +183,8 @@ $(window).scroll(function(event) {
   $(".animated").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("fadeInUp"); 
-    } 
+      el.addClass("fadeInUp");
+    }
   });
 });
 </script>
