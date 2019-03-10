@@ -27,7 +27,7 @@ body .delimiter {
 .block-1 .box-image-right {padding-left: 10%;}
 .block-1 .box-image-left {padding-right: 10%;}
 @media screen and (max-width: 991px) {
-	.block-1 .box-text {width: 65%}	
+	.block-1 .box-text {width: 65%}
 }
 @media screen and (max-width: 767px) {
 	.block-1 h3 {font-size: x-large;}
